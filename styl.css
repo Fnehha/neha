@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(128, 128, 128, 0.079);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 35px;
+    color: rgb(55, 55, 158);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: blue;
+    text-shadow: 0 0 25px blue,
+                 0 0 50px blue;
+    transform: scale(1.1);  
+}
+span{
+    color: purple;
+}
+.navbar a{
+    font-size: 25px;
+    color: rgb(110, 75, 216);
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: purple;
+    border-bottom: 3px solid purple;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: rgb(68, 68, 182);
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: purple;
+    box-shadow: 0 0 25px purple;
+    color: wheat;
+}
+.home{
+    background-image: url("download.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 5cm;
+    padding: 25px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.sub{
+    color: gray;
+    font-size: 40px;
+}
+.abc{
+    color: olive;
+    font-size: 35px;   
+}
+.home-content h1{
+    color: gray;
+    font-size: 75px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 1cm;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: purple;
+    color: wheat;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color:  whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 15px 20px;
+    background-color: rgba(147, 132, 132, 0.708);
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color:  whitesmoke;
+    color: purple;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10cm;
+    background-color: grey;
+    
+}
+.about-content h2{
+    text-align: left;
+    color: rgb(82, 81, 81);
+    font-size: 43px;   
+}
+.about-content h3{
+    font-size: 63px;
+    color: rgb(63, 63, 63);
+}
+.about-content p{
+    color: rgb(69, 72, 67);
+    font-size: 30px;
+    margin: 0 0 1.5em;
+}
+
+.contact-form{
+    background: fixed;
+    background-color: rgb(143, 127, 144);;
+}
+
+.contact-form h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.contact-form form{
+    max-width: 35em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: beige;
+    background: white;
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+
